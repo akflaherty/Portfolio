@@ -14,7 +14,11 @@ form {
 	height: 200px
 }
 
-details {
+#main-column {
 	background: white;
-	padding: 15px;
+	margin-top: 10px;
+}
+
+details {
+	padding: 10px;
 }
