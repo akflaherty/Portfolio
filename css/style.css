@@ -1,26 +1,5 @@
 body {
-	background-image: url('../images/background.png');
-}
-
-input {
-	width: 80%;
-}
-
-form {
-	padding: 10px;
-}
-
-#message-field {
-	height: 200px
-}
-
-#main-column {
-	background: white;
-	margin-top: 10px;
-}
-
-#side-column {
-	margin-top: 10px;
+	background-image: url('../images/spiration dark.png');
 }
 
 details {
