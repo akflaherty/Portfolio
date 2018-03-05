@@ -10,3 +10,12 @@ details {
 .card-block {
 	padding: 10px;
 }
+
+.profile-text {
+	float: left;
+}
+
+#profile-img {
+	margin: 2%;
+	float: right;
+}
