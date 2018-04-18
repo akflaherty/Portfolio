@@ -1,188 +1,257 @@
 <!-- © 2017 Anne Flaherty -->
 <!DOCTYPE html>
 <html lang="en-us">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Portfolio | Anne Flaherty</title>
-      <link rel="icon" href="images/favicon-code.ico">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/flatly/bootstrap.css">
-      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/style.css">
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117349303-1"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'UA-117349303-1');
-      </script>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <a class="navbar-brand"><i class="fa fa-code"></i> Anne Flaherty</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNav">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio | Anne Flaherty</title>
+    <link rel="icon" href="images/favicon-code.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117349303-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-117349303-1');
+    </script>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand">
+            <i class="fa fa-code"></i> Anne Flaherty</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html">About</a>
-               </li>
-               <li class="nav-item active">
-                  <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/akflaherty/Resume/blob/master/Flaherty-Resume.pdf" target="_blank">
-                  Resume</a>
-               </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/akflaherty/Resume/blob/master/Flaherty-Resume.pdf" target="_blank">
+                        Resume</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Social Media
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://github.com/akflaherty/" target="_blank">
+                            <i class="fab fa-github"></i> GitHub</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/anne-flaherty" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a class="dropdown-item" href="mailto:anne.flaherty@case.edu" target="_blank">
+                            <i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </li>
             </ul>
-         </div>
-      </nav>
-      <!-- Main Content -->
-      <br>
-      <div class="container">
-         <div class="row">
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <br>
+    <div class="container">
+        <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-               <div class="card">
-                  <div class="card-block">
-                     <h3 class="card-title">Portfolio</h3>
-                     <p class="card-text">
-                     <details open="">
-                        <summary>
-                           <b>Friend-Finder
-                              | <a href="https://github.com/akflaherty/friend-finder">GitHub</a>
-                              | <a href="https://evening-plains-29616.herokuapp.com/">Heroku App</a>
-                           </b>
-                        </summary>
-                        <p>
-                           <i>App Developer</i>
-                        </p>
-                        <p>
-                           In this app users complete a profile, and are matched to another user with similar preferences.
-                        </p>
-                        <p>
-                           <u>Technology used:</u> JavaScript, Bootstrap, Node.js, NPM, Express, HTML, CSS
-                        </p>
-                        <h4>
-                           <i class="fa fab fa-html5"></i>
-                           <i class="fab fa-css3-alt"></i>
-                           <i class="fa fab fa-js"></i>
-                           <i class="fa fab fa-node"></i>
-                           <i class="fab fa-npm"></i>
-                        </h4>
-                        <hr>
-                     </details>
-                     <details open="">
-                        <summary>
-                           <b>Film-Finder
-                              | <a href="https://github.com/kjmbaldwin/Film-Finder">GitHub</a>
-                              | <a href="https://kjmbaldwin.github.io/Film-Finder/">Web App</a>
-                           </b>
-                        </summary>
-                        <p>
-                           <i>App Developer</i>
-                        </p>
-                        <p>
-                           This web app is a platform integrates a movie database with your social network. Users create a login to search for and favorite films, find theaters near them, and check what movies their friends have favorited.
-                        </p>
-                        <p>
-                           <u>Technology used:</u> 
-                           JavaScript, CSS, HTML, APIs (Google Maps, OMBD), Firebase, jQuery
-                        </p>
-                        <h4>
-                              <i class="fa fab fa-html5"></i>
-                              <i class="fab fa-css3-alt"></i>
-                              <i class="fa fab fa-js"></i>
-                              <i class="fas fa-database"></i> 
-                        </h4>
-                        <hr>
-                     </details>
-                     <details open="">
-                        <summary>
-                           <b>Liri Node App | <a href="https://github.com/akflaherty/liri-node-app">GitHub</a></b>
-                           </summary>
-                        <p>
-                           <i>Backend Developer</i>
-                        </p>
-                        <p>
-                           Liri uses a CLI with Node.js to let users search for information on songs, movies, and recent posts to Twitter
-                        </p>
-                        <p>
-                           <u>Technology used:</u> Node.js, NPM, APIs (Twitter, Spotify, OMDB)
-                        </p>
-                        <h4>
-                           <i class="fa fab fa-node"></i>
-                           <i class="fab fa-npm"></i>
-                           <i class="fab fa-twitter"></i>
-                           <i class="fab fa-spotify"></i>
-                        </h4>
-                        <hr>
-                     </details>
-                     <details open="">
-                        <summary>
-                           <b>Train Scheduler
-                              | <a href="https://github.com/akflaherty/train-schedule">GitHub</a>
-                              | <a href="https://akflaherty.github.io/train-schedule/">Web App</a>
-                           </b>
-                        </summary>
-                        <p>
-                           <i>Web Developer</i>
-                        </p>
-                        <p>
-                           The Train Scheduler web app allows users to create entries into a database of train schedules. The time of the next train arrival is dynamically calculated and displayed to users.
-                        </p>
-                        <p>
-                           <u>Technology used:</u> HTML, CSS, Bootstrap, Firebase, jQuery, AJAX
-                        </p>
-                        <h4>
-                           <i class="fa fab fa-html5"></i> 
-                           <i class="fab fa-css3-alt"></i> 
-                           <i class="fas fa-database"></i>
-                        </h4>
-                        <hr>
-                     </details>
-                     <details open="">
-                        <summary><b>Aggregate Data Program</b></summary>
-                        <p>
-                           <i>SQL Developer (Epic Systems)</i>
-                        </p>
-                        <p>
-                           The Aggregate Data Program allowed healthcare organizations across the US to submit healthcare data to a centralized database. This combined dataset was then aggregated and re-distributed to participating organizations for research.
-                        </p>
-                        <p>
-                           I was responsible for modifying and documenting stored procedures for data validation prior to submission. Additonally, I provided design review for dataset distribution.
-                        </p>
-                        <p>
-                           <u>Technology used:</u> Microsoft SQL Server
-                        </p>
-                     </details>
-                  </div>
-               </div>
+                <div class="row">
+                    <div class="card html css node express react javascript mongodb">
+                        <!-- <img class="card-img-top" src="http://via.placeholder.com/150x150" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Information-Premium</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/davidmcdougs/information-premium">GitHub</a>
+                                |
+                                <a href="https://information-premium.herokuapp.com/">Heroku App</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Full Stack Developer</h6>
+                            <p class="card-text">
+                                An online Q&ampA resource which allows users to post questions and answers for rewards.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> React, MongoDB, JavaScript, SemanticUI, Node.js, NPM, Express, HTML,
+                                CSS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card html css node express javascript sql">
+                        <!-- <img class="card-img-top" src="http://via.placeholder.com/150x150" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Bet Party</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/GreenCord/bets">GitHub</a>
+                                |
+                                <a href="https://guarded-dusk-66600.herokuapp.com/">Heroku App</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Full Stack Developer</h6>
+                            <p class="card-text">
+                                This site allows users to create and place prop bets for events like the Super Bowl and awards shows.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> Handlebars, MySQL, JavaScript, Materialize, Node.js, NPM, Express, HTML,
+                                CSS
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card html css node javascript">
+                        <!-- <img class="card-img-top" src="http://via.placeholder.com/150x150" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Friend-Finder</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/akflaherty/friend-finder">GitHub</a>
+                                |
+                                <a href="https://evening-plains-29616.herokuapp.com/">Heroku App</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Full Stack Developer</h6>
+                            <p class="card-text">
+                                In this app users complete a profile, and are matched to another user with similar preferences.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> JavaScript, Bootstrap, Node.js, NPM, Express, HTML, CSS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+                <div class="row">
+                    <div class="card html css javascript">
+                        <!-- <img class="card-img-top" src="http://via.placeholder.com/150x150" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Film-Finder</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/akflaherty/friend-finder">GitHub</a>
+                                |
+                                <a href="https://evening-plains-29616.herokuapp.com/">Web App</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">App Developer</h6>
+                            <p class="card-text">
+                                This web app is a platform integrates a movie database with your social network. Users create a login to search for and favorite
+                                films, find theaters near them, and check what movies their friends have favorited
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> JavaScript, CSS, HTML, APIs (Google Maps, OMBD), Firebase, jQuery
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card node">
+                        <!-- <img class="card-img-top" src="http://via.placeholder.com/150x150" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Liri Node App</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/akflaherty/liri-node-app">GitHub</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Backend Developer</h6>
+                            <p class="card-text">
+                                Liri uses a CLI with Node.js to let users search for information on songs, movies, and recent posts to Twitter
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> Node.js, NPM, APIs (Twitter, Spotify, OMDB)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card html javascript">
+                        <!-- <img class="card-img-top" src="http://via.placeholder.com/150x150" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Train Scheduler</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/akflaherty/liri-node-app">GitHub</a>
+                                |
+                                <a href="https://akflaherty.github.io/train-schedule/">Web App</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Web Developer</h6>
+                            <p class="card-text">
+                                The Train Scheduler web app allows users to create entries into a database of train schedules. The time of the next train
+                                arrival is dynamically calculated and displayed to users.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> HTML, CSS, Bootstrap, Firebase, jQuery, AJAX
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+                <div class="row">
+                    <div class="card sql">
+                        <!-- <img class="card-img-top" src="http://via.placeholder.com/150x150" alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Aggregate Data Program</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/akflaherty/liri-node-app">GitHub</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">SQL Developer</h6>
+                            <p class="card-text">
+                                The Aggregate Data Program allows hospitals across the US to submit healthcare data to a centralized database.
+                                This combined dataset was then aggregated and distributed for research.
+                            </p>
+                            <p class="card-text">
+                                I modified and documented stored procedures for data validation prior to submission. Additonally, I
+                                provided design review for dataset distribution.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> Microsoft SQL Server
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
 
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-               <div class="card">
-                  <div class="card-block">
-                     <h3 class="card-title">Connect with Me</h3>
-                     <p class="card-text">
-                        <a class="btn btn-success btn-lg social-link" href="https://github.com/akflaherty" role="button"><i class="fab fa-github"></i> GitHub</a>
-                        <br>
-                        <br>
-                        <a class="btn btn-success btn-lg social-link" href="https://www.linkedin.com/in/anne-flaherty-a0a45614b/" role="button"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                        <br>
-                        <br>
-                        <a class="btn btn-success btn-lg" href="mailto:anne.flaherty@case.edu"><i class="fas fa-envelope"></i> Email</a>
-                     </p>
-                  </div>
-               </div>
+                <div class="card" data-spy="affix" data-offset-top="197" id="sticky-col">
+                    <div class="card-block">
+                        <h3 class="card-title">Skills</h3>
+                        <p class="card-text">
+                            <p>Hover over a skill to see examples:</p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item skillSelect" data-skill="html">HTML</li>
+                                <li class="list-group-item skillSelect" data-skill="css">CSS</li>
+                                <li class="list-group-item skillSelect" data-skill="javascript">JavaScript</li>
+                                <li class="list-group-item skillSelect" data-skill="node">Node.js</li>
+                                <li class="list-group-item skillSelect" data-skill="react">React</li>
+                                <li class="list-group-item skillSelect" data-skill="mongodb">MongoDB</li>
+                                <li class="list-group-item skillSelect" data-skill="sql">SQL</li>
+                                <li class="list-group-item skillSelect" data-skill="express">Express</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   </body>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        // JS for highlighting by hovering
+        $(".skillSelect").hover(function () {
+            var selectClass = "." + this.dataset.skill;
+            $(selectClass).css("background-color", "#f4e842");
+            $(".skillSelect").css("opacity", "0.3");
+            $(this).css("opacity", "1");
+        }, function () {
+            var selectClass = "." + this.dataset.skill;
+            $(selectClass).css("background-color", "white");
+            $(".skillSelect").css("opacity", "1")
+        });
+    </script>
+</body>
+
 </html>

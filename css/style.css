@@ -1,21 +1,14 @@
 body {
-	background-image: url('../images/spiration dark.png');
+    background-image: url('../images/circuit-board.jpg');
+    /* background-size: cover; */
+    padding-top: 50px;
 }
-
-details {
-	padding: 10px;
-}
-
 
 .card-block {
-	padding: 10px;
+    padding: 10px;
 }
 
-.profile-text {
-	float: left;
-}
-
-#profile-img {
-	margin: 2%;
-	float: right;
+#sticky-col {
+    position: fixed;
+    width: 20%;
 }
