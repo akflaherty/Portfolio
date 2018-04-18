@@ -4,10 +4,6 @@ body {
     padding-top: 50px;
 }
 
-.card-block {
-    padding: 10px;
-}
-
 #sticky-col {
     position: fixed;
     width: 20%;
